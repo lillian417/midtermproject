@@ -1,0 +1,26 @@
+/*logo div設定*/
+.logo div{
+    width: 346px;
+}
+.logo img{
+    float: left;
+    width: 230px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+/*menu div設定*/
+.menu div{
+    width: 650px;
+}
+.menu ul,li{
+    list-style-type:none;
+    display: inline;
+}
+.menu img{
+    width: 90px;
+    height: 30px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}

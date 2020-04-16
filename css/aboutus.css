@@ -1,0 +1,88 @@
+/*div置中，固定寬996*/
+div{
+    margin:0px auto;
+    width: 996px;
+    background-color: rgb(181, 248, 250);
+}
+/*標題*/
+.aboutustitle {
+    width: 996px;
+    height: 100px;
+}
+.aboutustitle img{
+    width: 220px;
+    float: left;
+    padding: 20px;
+    padding-top: 0px;
+}
+.aboutusblock{
+    width: 996px;
+    height: 800px;
+}
+.aboutusblock1{
+    width: 260px;
+    float: left;
+}
+.aboutusblock1 img{
+    width: 200px;
+    padding: 16px;
+    padding-left: 44px;
+    padding-bottom: 10px;
+}
+.aboutusblock1font{
+    width: 200px;
+    padding: 16px;
+    padding-left: 44px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family:Microsoft JhengHei;
+}
+.aboutusblock2{
+    width: 232px;
+    display: inline-block;
+}
+.aboutusblock2 img{
+    width: 200px;
+    padding: 16px;
+}
+.aboutusblock2font{
+    width: 200px;
+    padding: 16px;
+    padding-top: 10px;
+    margin: 0px;
+    font-size: 18px;
+    font-family:Microsoft JhengHei;
+}
+.aboutusblock3{
+    width: 232px;
+    display: inline-block;
+}
+.aboutusblock3 img{
+    width: 200px;
+    padding: 16px;
+}
+.aboutusblock3font{
+    width: 200px;
+    padding: 16px;
+    padding-top: 10px;
+    margin: 0px;
+    font-size: 18px;
+    font-family:Microsoft JhengHei;
+}
+.aboutusblock4{
+    width: 260px;
+    display: inline-block;
+}
+.aboutusblock4 img{
+    width: 200px;
+    padding: 16px;
+    padding-right: 44px;
+}
+.aboutusblock4font{
+    width: 200px;
+    padding: 16px;
+    padding-right: 44px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family:Microsoft JhengHei;
+}

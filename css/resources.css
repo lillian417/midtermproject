@@ -1,0 +1,64 @@
+/*div置中，固定寬996*/
+div{
+    margin:0px auto;
+    width: 996px;
+    background-color: rgb(181, 248, 250);
+}
+/*標題*/
+.resourcestitle{
+    width: 996px;
+    height: 100px;
+}
+.resourcestitle img{
+    width: 200px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.resourcesblock{
+    width: 996px;
+    height: 554px;
+}
+.resourceslink1 {
+    width: 486px;
+    margin: 0px;
+    padding-bottom: 80px;
+    float: left;
+}
+.resourceslink1 li{
+    width: 400px;
+    float: left;
+    font-family:Microsoft JhengHei;
+    padding: 10px;
+    padding-left: 120px;
+}
+.resourceslink1 a{
+    text-decoration:none;
+}
+.resourceslink2 {
+    width: 510px;
+    margin: 0px;
+    padding-bottom: 80px;
+    float: right;
+}
+.resourceslink2 li{
+    width: 400px;
+    float: left;
+    font-family:Microsoft JhengHei;
+    padding: 10px;
+    padding-right: 130px;
+}
+.resourceslink2 a{
+    text-decoration:none;
+}
+/*底部*/
+.indexbottom{
+    width: 996px;
+    height: 72px;
+}
+.indexbottom img{
+    width: 230px;
+    padding: 20px;
+    display:block;
+    margin: 0px auto;
+}

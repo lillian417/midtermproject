@@ -1,0 +1,27 @@
+/*div置中，固定寬996*/
+div{
+    margin:0px auto;
+    width: 996px;
+    background-color: rgb(181, 248, 250);
+}
+
+/*介紹區塊*/
+.activitytitle{
+    width: 996px;
+}
+.activitytitle img{
+    display:block;
+    width: 250px;
+    padding-left: 20px;
+}
+.activityfont{
+    width: 896px;
+    font-size: 18px;
+    font-family:Microsoft JhengHei;
+    line-height: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-indent:2em;
+    padding: 50px;
+    padding-top: 20px;
+}

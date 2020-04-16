@@ -1,0 +1,85 @@
+/*div置中，固定寬996*/
+div{
+    margin:0px auto;
+    width: 996px;
+    background-color: rgb(181, 248, 250);
+}
+/*介紹區塊*/
+.courseblock{
+    width: 996px;
+    height: 220px;
+}
+.courseblock1{
+    width: 649px;
+    float: left;
+}
+.coursetitle div{
+    width: 650px;
+}
+.coursetitle img{
+    width: 500px;
+    padding-left: 10px;
+}
+.coursefont{
+    width: 540px;
+    float: left;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 50px;
+    font-family:Microsoft JhengHei;
+    letter-spacing: 1.5px;
+    line-height: 27px;
+    font-weight: bold;
+    text-indent:2em;
+}
+.coursevideo{
+    width: 332px;
+    float: right;
+    padding-right: 15px;
+}
+/*tab的部分*/
+.tabpage{
+    width: 996px;
+    margin: 0px auto;
+}
+.tabtitle{
+    width: 996px;
+}
+#taboutside{
+    width:996px;
+    height:50px;
+}
+#taboutside ul{
+    display:block;
+    margin:0;
+    list-style:none;
+}
+#taboutside li{
+    display:inline-block;
+    vertical-align:top;
+    font-family:'微軟正黑體';
+    border:1px solid #BCBCBC;
+    height:25px;
+    line-height:25px;
+    background:#cdcdcd;
+    padding:0 15px;
+    list-style:none;
+    box-sizing:border-box;
+}
+#taboutside a{
+    color:#000;
+    text-decoration:none;
+}
+#taboutside li.active{
+    border-bottom:1px solid #fff;
+    background:#fff;
+}
+#taboutside .tabinside{
+    clear:both;
+    color:#000;
+    border:1px #BCBCBC solid;
+}
+.tabinside{
+    width: 994px;
+    height:1000px;
+}

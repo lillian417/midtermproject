@@ -1,0 +1,167 @@
+/*div置中，固定寬996*/
+div{
+    margin:0px auto;
+    width: 996px;
+    background-color: rgb(181, 248, 250);
+}
+/*首頁標題1*/
+.indexblock1 div{
+    width: 650px;
+    float: left;
+}
+.indextitle1 div{
+    width: 664px;
+    height: 100px; 
+}
+.indextitle1 img{
+    width: 430px;
+    padding-top: 15px;
+    padding-bottom: 10px; 
+    padding-left: 10px; 
+}
+/*首頁標題一之圖片*/
+.indextp1 div{
+    display: inline;
+}
+.indextp1 img{
+    width: 332px;
+    padding-right: 5px;
+}
+/*標題1之內文*/
+.indexfont1 div{
+    width: 550px;
+    float: left;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 50px;
+    font-family:Microsoft JhengHei;
+    letter-spacing: 1.5px;
+    line-height: 27px;
+    font-weight: bold;
+    text-indent:2em;
+}
+/*首頁標題2*/
+.indextitle2 div{
+    width: 996px;
+}
+.indextitle2 img{
+    display:block;
+    margin:auto;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+/*天人物我*/
+.box1{
+    width: 498px;
+    height: 148px;
+    float: left;
+}
+.box1font{
+    width: 400px;
+    font-size: 18px;
+    padding: 20px;
+    padding-left: 60px;
+    font-family:Microsoft JhengHei;
+    line-height: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-indent:2em;
+}
+.box2{
+    width: 498px;
+    float: right;
+}
+.box2font{
+    width: 400px;
+    font-size: 18px;
+    padding: 20px;
+    padding-right: 60px;
+    font-family:Microsoft JhengHei;
+    line-height: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-indent:2em;
+}
+.box3{
+    width: 498px;
+    float: left;
+}
+.box3font{
+    width: 400px;
+    font-size: 18px;
+    padding: 20px;
+    padding-left: 60px;
+    font-family:Microsoft JhengHei;
+    line-height: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-indent:2em;
+}
+.box4{
+    width: 498px;
+    float: right;
+}
+.box4font{
+    width: 400px;
+    font-size: 18px;
+    padding: 20px;
+    padding-right: 60px;
+    font-family:Microsoft JhengHei;
+    line-height: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-indent:2em;
+}
+/*首頁第三標題*/
+.indextp3 {
+    width: 332px;
+    float: left;
+}
+.indextp3 img{
+    width: 332px;
+    height: 270px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+}
+.indexblock3{
+    width: 996px;
+    height: 370px;
+}
+.indexblock3_1{
+    width: 664px;
+    height: 270px;
+    float: right;
+    padding-bottom: 100px;
+}
+.indextitle3{
+    width: 664px;
+}
+.indextitle3 img{
+    width: 280px;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;  
+}
+.indexfont3 div{
+    width: 500px;
+    float: left;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 80px;
+    font-family:Microsoft JhengHei;
+    letter-spacing: 1.5px;
+    line-height: 27px;
+    font-weight: bold;
+    text-indent:2em;
+}
+/*底部*/
+.indexbottom div{
+    width: 996px;
+    height: 72px;
+}
+.indexbottom img{
+    width: 230px;
+    padding: 20px;
+}

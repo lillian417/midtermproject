@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>通識課程</title>
+    <link rel="stylesheet" href="css/course.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/decoration.css">
+    <script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.js"></script>   
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+</head>
+
+<body>
+    <div>
+        <div class="logo">
+            <a href="index.html" title="中原通識教育">
+                <img src="images/logo.png" alt="中原通識教育">
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="menu" style="padding-left: 65px;"><a href="course.html"><img src="images/menu1.png"></a></li>
+                <li class="menu"><a href="activity.html"><img src="images/menu2.png"></a></li>
+                <li class="menu"><a href="daydaynew.html"><img src="images/menu3.png"></a></li>
+                <li class="menu"><a href="map.html"><img src="images/menu4.png"></a></li>
+                <li class="menu"><a href="resources.html"><img src="images/menu5.png"></a></li>
+                <li class="menu"><a href="aboutus.html"><img src="images/menu6.png"></a></li>
+                <li class="menu"><a href="contactus.html"><img src="images/menu7.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="slider_container">
+        <div>
+            <img src="images/courseimg1.jpg"/>
+        </div>
+        <div>
+            <img src="images/courseimg2.jpg"/>
+        </div>
+        <div>
+            <img src="images/courseimg3.jpg"/>
+        </div>
+    </div>
+    <div class="decoration"><img style="padding-top: 0px; padding-bottom: 50px;" src="images/indexdecoration1.png"></div>
+    <div class="courseblock">
+        <div class="courseblock1">
+            <div class="coursetitle">
+                <img src="images/coursetitle.png">
+            </div>
+            <div class="coursefont">
+                中原大學的通識教育課程，共分為「天、人、物、我」四大學類，每學期開課數約一百三十餘門，班級數達三百多班。學生必須修滿三十四學分，才具有畢業資格。
+            </div>
+        </div>
+        <div class="coursevideo">
+            <iframe width="332" height="187" src="https://www.youtube.com/embed/LytbfTogB2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="tabpage" id="taboutside">
+        <ul class="tabtitle">
+            <li><a href="#tab01">天</a></li>
+            <li><a href="#tab02">人</a></li>
+            <li><a href="#tab03">物</a></li>
+            <li><a href="#tab04">我</a></li>
+        </ul>
+        <div id='tab01' class="tabinside">
+            <table>
+              <thead>
+                <th scope='col'>課程名稱</th>
+                <th scope='col'>課程代碼</th>
+                <th scope='col'>課程類型</th>
+                <th scope='col'>授課時間</th>
+                <th scope='col'>授課地點</th>
+                <th scope='col'>授課教師</th>
+              </thead>
+              <tr v-for="Value in sky">
+                <td>{{Value.課程名稱}}</td>
+                <td>{{Value.課程代碼}}</td>
+                <td>{{Value.開課班級}}</td>
+                <td>{{Value.時間1}}</td>
+                <td>{{Value.教室1}}</td>
+                <td>{{Value.授課教師}}</td>
+              </tr>
+            </table>
+          </div>
+          <div id='tab02' class="tabinside">
+            <table>
+              <thead>
+                <th scope='col'>課程名稱</th>
+                <th scope='col'>課程代碼</th>
+                <th scope='col'>課程類型</th>
+                <th scope='col'>授課時間</th>
+                <th scope='col'>授課地點</th>
+                <th scope='col'>授課教師</th>
+              </thead>
+              <tr v-for="Value in people">
+                <td>{{Value.課程名稱}}</td>
+                <td>{{Value.課程代碼}}</td>
+                <td>{{Value.開課班級}}</td>
+                <td>{{Value.時間1}}</td>
+                <td>{{Value.教室1}}</td>
+                <td>{{Value.授課教師}}</td>
+              </tr>
+            </table>
+          </div>
+          <div id='tab03' class="tabinside">
+            <table>
+              <thead>
+                <th scope='col'>課程名稱</th>
+                <th scope='col'>課程代碼</th>
+                <th scope='col'>課程類型</th>
+                <th scope='col'>授課時間</th>
+                <th scope='col'>授課地點</th>
+                <th scope='col'>授課教師</th>
+              </thead>
+              <tr v-for="Value in thing">
+                <td>{{Value.課程名稱}}</td>
+                <td>{{Value.課程代碼}}</td>
+                <td>{{Value.開課班級}}</td>
+                <td>{{Value.時間1}}</td>
+                <td>{{Value.教室1}}</td>
+                <td>{{Value.授課教師}}</td>
+              </tr>
+            </table>
+          </div>
+          <div id='tab04' class="tabinside">
+            <table>
+              <thead>
+                <th scope='col'>課程名稱</th>
+                <th scope='col'>課程代碼</th>
+                <th scope='col'>課程類型</th>
+                <th scope='col'>授課時間</th>
+                <th scope='col'>授課地點</th>
+                <th scope='col'>授課教師</th>
+              </thead>
+              <tr v-for="Value in me">
+                <td>{{Value.課程名稱}}</td>
+                <td>{{Value.課程代碼}}</td>
+                <td>{{Value.開課班級}}</td>
+                <td>{{Value.時間1}}</td>
+                <td>{{Value.教室1}}</td>
+                <td>{{Value.授課教師}}</td>
+              </tr>
+            </table>
+          </div>
+    </div>
+</body>
+<script src="js/course.js"></script>
+</html>

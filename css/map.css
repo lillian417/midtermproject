@@ -1,0 +1,24 @@
+/*div置中，固定寬996*/
+div{
+    margin:0px auto;
+    width: 996px;
+    background-color: rgb(181, 248, 250);
+}
+.maptitle1{
+    width: 996px;
+}
+.maptitle1 img{
+    display:block;
+    width: 180px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+.schoolmap{
+    width: 996px;
+    height: 576px;
+}
+.schoolmap img{
+    width: 800px;
+    display:block;
+    margin: auto;
+}
